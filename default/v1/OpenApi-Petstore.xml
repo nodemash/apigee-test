@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="OpenApi-Petstore">
+    <Basepaths>/openapi-petstore</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1598892238552</CreatedAt>
+    <CreatedBy>bhenaoc@psl.com.co</CreatedBy>
+    <Description></Description>
+    <DisplayName>OpenApi-Petstore</DisplayName>
+    <LastModifiedAt>1598892238552</LastModifiedAt>
+    <LastModifiedBy>bhenaoc@psl.com.co</LastModifiedBy>
+    <ManifestVersion>SHA-512:6b7a9d96fc0a79f591cbd8eed986256ba08f764a6eda8a00f8554a463d5ec0b2b734b3e76e102997e39d1c23afdeb7c54c53cf5fca1437011b75e11e45635993</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
