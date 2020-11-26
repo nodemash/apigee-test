@@ -1,8 +1,8 @@
 <APIProxy revision="{{ .Metadata.Revision }}" name="{{ .Proxy.Name }}">
   <ConfigurationVersion minorVersion="{{ .Metadata.MinorVersion }}" majorVersion="{{ .Metadata.MajorVersion }}"/>
-  <CreatedAt>{{ .Metadata.CreatedAt}}</CreatedAt>
+  <CreatedAt>{{ .Metadata.CreatedAt }}</CreatedAt>
   <CreatedBy>{{ .Metadata.Author }}</CreatedBy>
-  <Description>{{ .Proxy.Revision }}</Description>
-  <DisplayName>{{ .Proxy.DisplayName }}</DisplayName>
+  <Description>{{ .Metadata.Revision }}</Description>
+  <DisplayName>{{ .Proxy.Name }}</DisplayName>
   <TargetEndpoints/>
 </APIProxy>
