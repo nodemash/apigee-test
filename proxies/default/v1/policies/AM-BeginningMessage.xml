@@ -1,0 +1,13 @@
+<AssignMessage name='AM-BeginningMessage'>
+  <DisplayName>AM-ContrivedMessage</DisplayName>
+  <AssignTo createNew='true' transport='http' type='request'>contrivedMessage</AssignTo>
+  <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+  <Set>
+    <Payload contentType='text/xml'>
+      <java:ExtraInfoXml xmlns:java="java:com.test.model.ws">
+        <![CDATA[<tns:easr-milestone xmlns:tns="http://easr.model.milestone.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://easr.model.milestone.com eASRMilestone.xsd "><pon>2007</pon><version>01</version><lec-ddd>0001-01-01</lec-ddd><received-date>2020-07-08</received-date><foc-date>0001-01-01</foc-date><sent-date>0001-01-01</sent-date><supp-type></supp-type><asr-type> </asr-type><ether-evc-asr>0</ether-evc-asr><vlan></vlan></tns:easr-milestone>]]>
+      </java:ExtraInfoXml>
+    </Payload>
+    <Verb>POST</Verb>
+  </Set>
+</AssignMessage>

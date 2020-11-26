@@ -1,0 +1,12 @@
+<ExtractVariables name='EV-CDATA'>
+  <Source>contrivedMessage</Source>
+  <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+  <XMLPayload>
+    <Namespaces>
+      <Namespace prefix='ws'>java:com.test.model.ws</Namespace>
+    </Namespaces>
+    <Variable name='cdata_text' type='string'>
+      <XPath>/ws:ExtraInfoXml/text()</XPath>
+    </Variable>
+  </XMLPayload>
+</ExtractVariables>
