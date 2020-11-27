@@ -2,7 +2,7 @@
   <AssignTo createNew='true' transport='http' type='request'>artificialMessage</AssignTo>
   <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
   <Set>
-    <Payload contentType='text/xml'>{{`{cdata_text}`}}</Payload>
+    <Payload contentType='text/xml'>{cdata_text}</Payload>
     <Verb>POST</Verb>
   </Set>
 </AssignMessage>
