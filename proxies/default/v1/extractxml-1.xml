@@ -1,5 +1,5 @@
 {{ with . }}
-<APIProxy revision="{{ .Metadata.revision }}" name="{{ .Proxy.Name }}">
+<APIProxy revision="{{ .Metadata.Revision }}" name="{{ .Proxy.Name }}">
   <ConfigurationVersion minorVersion="{{ .Metadata.MinorVersion }}" majorVersion="{{ .Metadata.MajorVersion }}"/>
   <CreatedAt>{{ .Metadata.CreatedAt}}</CreatedAt>
   <CreatedBy>{{ .Metadata.Author }}</CreatedBy>
