@@ -1,3 +1,4 @@
+{{`
 <AssignMessage name='AM-BeginningMessage'>
   <DisplayName>AM-ContrivedMessage</DisplayName>
   <AssignTo createNew='true' transport='http' type='request'>contrivedMessage</AssignTo>
@@ -11,3 +12,4 @@
     <Verb>POST</Verb>
   </Set>
 </AssignMessage>
+`}}
