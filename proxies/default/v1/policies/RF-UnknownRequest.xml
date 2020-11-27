@@ -1,3 +1,4 @@
+{{`
 <RaiseFault name='RF-UnknownRequest'>
   <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
   <FaultResponse>
@@ -14,3 +15,4 @@
     </Set>
   </FaultResponse>
 </RaiseFault>
+`}}

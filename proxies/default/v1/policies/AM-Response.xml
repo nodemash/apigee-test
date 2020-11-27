@@ -2,12 +2,12 @@
   <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
   <Set>
     <Payload contentType='text/plain'>
-pon:           {pon}
+{{`pon:           {pon}
 version:       {version}
 lec-ddd:       {lec-ddd}
 received-date: {received-date}
 foc-date:      {foc-date}
-sent-date:     {sent-date}
+sent-date:     {sent-date}`}}
 </Payload>
     <ReasonPhrase>OK</ReasonPhrase>
     <StatusCode>200</StatusCode>
