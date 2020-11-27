@@ -3,7 +3,7 @@
   <ConfigurationVersion minorVersion="{{ .Metadata.MinorVersion }}" majorVersion="{{ .Metadata.MajorVersion }}"/>
   <CreatedAt>{{ .Metadata.CreatedAt}}</CreatedAt>
   <CreatedBy>{{ .Metadata.Author }}</CreatedBy>
-  <Description>{{ .Proxy.Revision }}</Description>
+  <Description>{{ .Proxy.Description }}</Description>
   <DisplayName>{{ .Proxy.DisplayName }}</DisplayName>
   <TargetEndpoints/>
 </APIProxy>
