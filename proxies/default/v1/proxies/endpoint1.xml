@@ -1,7 +1,7 @@
 <ProxyEndpoint name="endpoint1">
   <Description>Proxy Endpoint 1</Description>
   <HTTPProxyConnection>
-    <BasePath>/extractxml-1</BasePath>
+    <BasePath>/{{ .Proxy.Name }}</BasePath>
     <Properties/>
     <VirtualHost>secure</VirtualHost>
   </HTTPProxyConnection>
