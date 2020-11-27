@@ -1,1 +1,10 @@
-TEST
+{{ with . }}
+<APIProxy revision="{{ .Metadata.revision }}" name="{{ .Proxy.Name }}">
+  <ConfigurationVersion minorVersion="{{ .Metadata.MinorVersion }}" majorVersion="{{ .Metadata.MajorVersion }}"/>
+  <CreatedAt>{{ .Metadata.CreatedAt}}</CreatedAt>
+  <CreatedBy>{{ .Metadata.Author }}</CreatedBy>
+  <Description>{{ .Proxy.Revision }}</Description>
+  <DisplayName>{{ .Proxy.DisplayName }}</DisplayName>
+  <TargetEndpoints/>
+</APIProxy>
+{{ end }}
